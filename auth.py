@@ -1,6 +1,9 @@
-#register - username and password and email
-#login - username or email and password
+'''
+THIS IS A MOCK ATM 
 
+#register - username and password, confirm password and email
+#login - username or email and password
+'''
 
 
 # added a functionality to check acount balance and a condition to check for confirm password
@@ -138,7 +141,7 @@ def anotherOp(operation,OpNumber):
 def generateAccountNumber():
     return(random.randrange(1111111111,9999999999))
 
-
+# Actual banking authentification system
 init() 
 
 
